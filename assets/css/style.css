@@ -256,8 +256,10 @@ h6 {
   z-index: 1;
 }
 
-#hero .hero-container {
+.hero-container {
   position: relative;
+  margin-top: 5%;
+  text-align: center;
   z-index: 2;
   min-width: 300px;
   padding-left: 24%;
@@ -318,6 +320,15 @@ section {
 
 .section-title {
   padding-bottom: 30px;
+}
+
+.section-title h1 {
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
 }
 
 .section-title h2 {
